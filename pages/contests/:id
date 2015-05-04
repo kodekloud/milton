@@ -118,7 +118,7 @@
             <span>
                 <br>
                 <label for="newsletter_signup" style="display:none">Agree Terms</label>
-              <input type="checkbox" class="info_check" id="newsletter_signup" name="contest[newsletter]"/>&nbsp;Yes, I would like to receive ongoing news related to events, promotions and special announcements from Sheridan Centre.
+              <input type="checkbox" class="info_check" id="newsletter_signup" name="contest[newsletter]"/>&nbsp;Yes, I would like to receive ongoing news related to events, promotions and special announcements from Milton Mall.
             </span>
             <br>
             <br>
@@ -166,9 +166,9 @@
                                     var s = check_email();
                                     if (s == true){
                                         var email = $("#email").val();
-                                        $('input[name="cm-iljuhu-iljuhu"]').attr('value',email);
+                                        $('input[name="cm-iljuii-iljuii"]').attr('value',email);
                                          $.getJSON(
-                                            "http://mobilefringe.createsend.com/t/d/s/iljuhu/?callback=?",
+                                            "http://mobilefringe.createsend.com/t/d/s/iljuii/?callback=?",
                                           $("#subForm").serialize(),
                                             function (data) {
                                                 if (data.Status === 400) {
