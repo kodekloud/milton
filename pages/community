@@ -397,13 +397,12 @@
     	        chair = '0';
     	    }
     	    
-    	    
 	        $.ajax({
                 url : "http://mallmaverick.com/send_contact_email",
                 type: "POST",
                 data : { 
                     'send_to': "ardalan@mobilefringe.com", 
-                    'subject': "Milton Mall Community Rental Form Application", 
+                    'subject': "Milton Mall Community Group Request", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
                         "Operating Name of Organization(if different)": operatingName, 
