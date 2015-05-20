@@ -403,7 +403,7 @@
                 type: "POST",
                 data : { 
                     'send_to': "ardalan@mobilefringe.com", 
-                    'subject': "Milton Community Rental Form Application", 
+                    'subject': "Milton Mall Community Rental Form Application", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
                         "Operating Name of Organization(if different)": operatingName, 
