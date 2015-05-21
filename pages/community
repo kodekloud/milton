@@ -46,7 +46,8 @@
 </div>
 <div  id="main_content" style="display:none">
     <ul class="breadcrumb">
-        <li><a href="/home">Contact Us</a> </li>
+        <li><a href="/home">Home</a> </li>
+        <li><a href="/contact_us">Contact Us</a> </li>
         <li class="active">Community Group Request</li>
     </ul>
     <div class="page_banner">
