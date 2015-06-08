@@ -402,7 +402,7 @@
                 url : "http://mallmaverick.com/send_contact_email",
                 type: "POST",
                 data : { 
-                    'send_to': "JSim@Bentallkennedy.com", 
+                    'send_to': "mark@mobilefringe.com", 
                     'subject': "Milton Mall Community Group Request", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
