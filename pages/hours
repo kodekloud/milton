@@ -6,7 +6,9 @@
         <li><a href="/home">Home</a> </li>
         <li class="active">Shopping Hours</li>
     </ul>
-    
+    <div class="page_banner">
+        Shopping Hours
+    </div>
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/5a559199c13efa2cbd2001f37022c6c2/Banner-Image-004_edited.jpg"/>
@@ -23,7 +25,7 @@
                     </tr>
                 </script>
             </table>
-          
+            <br>
             <!--<p class="right_column_header">Custom Text</p>-->
             <!--uncomment and put whatever text you want in this block-->
             <!--<table class="reg_hours_container">-->
@@ -37,7 +39,7 @@
             <!--    </tr>-->
             <!--</table>-->
             <!--<br>-->
-
+            <br>
             <p class="right_column_header">holiday hours</p>
             <table id="holiday_hours_container" class="holiday_hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
